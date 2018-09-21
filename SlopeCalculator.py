@@ -1,5 +1,11 @@
 print("Slope Calculator:")
 
+#Python always assumes that your input is a
+#a string unless you tell it. 
+#To make a numeric type you have two options
+#decimals - float
+#integers - int
+
 #Imput
 x1 = input("Input x1: ")
 x1 = int(x1)
@@ -18,6 +24,15 @@ rise = x2 - x1
 run = y2 - y1
 
 fSlope = rise/run
+
+#Three types to consider
+#Strings - Store collections of characters
+# result = str(<value>)
+#integers - Store integer values
+# result = int(<value>)
+#floats - Store real numbers
+# result = float(<value>)
+
 
 #Output
 print("your slope is m="+str(rise)+"/"+str(run))
