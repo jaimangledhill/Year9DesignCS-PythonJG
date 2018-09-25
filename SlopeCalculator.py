@@ -9,7 +9,7 @@ print("Slope Calculator:")
 #integers - int
 
 
-os.system("say Welcome to my slope calculator")
+os.system("say Welcome to my slope calculator please enter you x and y values")
 #Imput
 x1 = input("Input x1: ")
 x1 = int(x1)
@@ -46,7 +46,7 @@ os.system("say your slope is m="+str(rise)+"/"+str(run))
 os.system("say your slope as a decimal is "+str(fSlope))
 print(rise)
 print(run)
-
+os.system("say thank you for using this slope calculator")
 
 
 
