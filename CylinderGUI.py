@@ -1,5 +1,29 @@
 import tkinter as tk
+import math
 
+#A def in python is a function 
+#A function is a small piece of code you call and run
+#This function is bound to teh submit key
+#This means when your click it, the function runs
+#Everything in function must be tabbed .
+def submit():
+#*********START OF FUNCTION*********
+	print("Submit pressed")
+	r = float(entr.get())
+	h = float(enth.get())
+	v = math.pi*r*r*h
+	v = round(v,3)
+
+	output.config(state="normal")
+	output.insert(tk.INSERT,v)
+	output.config(state="disabled")
+	
+
+#*********END OF FUNCTION***********
+
+
+
+#*********START OF PROGRAM**********
 root = tk.Tk()
 root.title("Volume of a Cylinder")
 
@@ -16,7 +40,7 @@ enth = tk.Entry(root)
 enth.pack()
 
 
-btn = tk.Button(root, text="Submit")
+btn = tk.Button(root, text="Submit", command=submit)
 btn.pack()
 
 output = tk.Text(root, width =50, height=10, borderwidth=3, relief=tk.GROOVE)
