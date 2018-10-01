@@ -30,6 +30,7 @@ def submit():
 
 #*********START OF PROGRAM**********
 root = tk.Tk()
+root.config(background = "green")
 root.title("Volume of a Cylinder")
 
 labr = tk.Label(root, text="radius")
@@ -45,7 +46,7 @@ enth = tk.Entry(root)
 enth.pack()
 
 
-btn = tk.Button(root, text="Submit", command=submit)
+btn = tk.Button(root, text="Submit", command=submit, activebackground = "red")
 btn.pack()
 
 output = tk.Text(root, width =50, height=10, borderwidth=3, relief=tk.GROOVE)
