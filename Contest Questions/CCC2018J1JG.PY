@@ -1,0 +1,1 @@
+print ("Welcome to the CCC2018J1")
