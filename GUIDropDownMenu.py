@@ -9,7 +9,9 @@ root = tk.Tk()
 OPTIONS =  [
 	"eggs"
 	"bunny"
-	"chicken",]
+	"chicken",
+
+]
 
 var = tk.StringVar(root)
 var.set(OPTIONS[0])	
