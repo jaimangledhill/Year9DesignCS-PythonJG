@@ -7,5 +7,5 @@ food3 = input("Input food 3: ")
 foods = [food1, food2, food3] #Data structure
 
 #output -we want to sort our lists in our programs
-foods.sort()
+foods.sort(e)
 print (foods)
